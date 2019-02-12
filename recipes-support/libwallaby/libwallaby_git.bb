@@ -5,7 +5,7 @@ PR="136"
 
 SRCREV = "93f7abceb8317cf1fe655d439a2956dc6ec96c68"
 
-SRC_URI="git://github.com/kipr/libwallaby.git;branch=update-python-bindings"
+SRC_URI="git://github.com/EugeneDMyers/libwallaby.git;branch=CameraFix"
 
 EXTRA_OECMAKE += "-DBITBAKE_BS=1 -DCMAKE_SYSROOT=${D} -DBUILD_DOCUMENTATION=OFF"
 
